@@ -1,0 +1,5 @@
+baseURL = 'http://salvatore-ferrone.github.io/'
+languageCode = 'en-us'
+title = 'Salvatore Ferrone, Astronomer.'
+theme = "hugo-blog-awesome"
+
