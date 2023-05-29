@@ -1,18 +1,65 @@
 ---
-title: PhD checkpoint
+title: PhD Checkpoint Num. 1
 author: Salvatore Ferrone
 date: 2023-05-25
 description: My comité de suivi de thèse.
+toc: true
 ---
+la lingue officielle is franglais. 
 
-## PhD progress
+## PhD Checkpoint #1
 
-What do I need to present in this checkpoint? I need to show the courses that I've done, the conferences that I've presented at, the work that I've achomplished, and what I am planning to do in the future.
+To Dr. Gary Mamon and Dr. Françoise Combes, thank you for taking your time out to check in my progress. I hope that you will find my work satisfactory and can cretique it freely in the aims of forming a better scientist. To Dr. Paola Di Matteo, thank you for directing me and providing me with an opprotunity to make a valid contribution in astronomy. To Dr. Marco Montouri, I look forward to working together more closely when I arrive in Rome. I would also like to thank other professors who have helped 
+
+## Les courants stellaires pour l'archéologie galactique et cosmique : quand la gravité rencontre la complexité
+(Stellar streams for Galactic and cosmic archaeology: when gravity meets complexity)
+
+### Problematique (problem statement)
+Avec ce projet de thèse, nous souhaitons 1) modeliser les courants stellaires autour de tous les amas globulaires de la Galaxie, en utilisant une variété de potentiels galactiques, incluant ou non les perturbations dues à la barre, aux nuages moléculaires géants, aux autres amas globulaires passant à proximité, et aux sous-structures de matière noire ; 2) développer et utiliser un ensemble de méthodes statistiques pour comparer les différentes simulations, en quantifiant les différences et les similitudes entre les caractéristiques des courants formés dans différents potentiels. Le but du projet est de caracteriser les signatures que de differentes structures visibles et de matière noire laissent dans la morfologie et cinématique des courants stellaires, pour pouvoir interpreter la grande quantité de nouvelles decouvertes faites en analysant les données de la mission astrometrique Gaia. Qu'est-ce-que les courants stellaires autour des amas globulaires peuvent nous reveler sur la distribution de la matière baryonique et de la matière noire dans notre Galaxie et sur leur granularité ?
+
+![NGC](https://www.nasa.gov/sites/default/files/thumbnails/image/heic1321a.jpg)
+Image of the Milky Way Globular Cluster NGC 7028 (M15) Credit: Credits: NASA, ESA
+
+![streams](https://upload.wikimedia.org/wikipedia/commons/9/95/Sig07-008.jpg)
+Credit: NASA/JPL-Caltech/R. Hurt (SSC/Caltech)
 
 
 
 
-## Presentations
+### Thématique 
+Among the variety of systems found in our Galaxy, there are some, very old, which have been capturing the attention of astronomers for more than a century. These systems, which are called globular clusters because of their round shape, are collections of hundreds of thousands up to millions of stars, bound together by gravity. Globular clusters can be as old as the Universe itself (about 13.7 billion years), and as such they have been orbiting the Galaxy for several billion years, keeping key information about Galactic evolution through cosmic times.
+
+
+### Domaine
+One of the main processes affecting the globular cluster population, its evolution in number, masses and sizes with time, is tidal stripping. The long-term effect of this process consists of stripping the system of its most loosely bound stars, which redistribute themselves onto orbits similar to that of their progenitor, forming so-called ``tidal tails'' or streams around it.
+
+### Objectif
+The objective of the thesis is to:
+
+1. build comprehensive catalogues of simulated stellar currents around globular clusters in a variety of Galactic potentials, including and excluding perturbations due to the bar, giant molecular clouds, other nearby globular clusters, and dark matter substructures;
+2. develop and use a set of statistical methods to compare the different catalogues, quantifying the differences and similarities between the characteristics of the recovered currents in different potentials and their statistical significance, also taking into account the uncertainties in the knowledge of the current positions and velocities of globular clusters in the Milky Way.
+
+A complete census of these stellar currents is currently lacking. However, this is a fundamental step, both to support the search for new streams in the data, and to quantify the extent to which different assumptions in the way we model the distribution of visible and dark matter mass can affect the properties of the overall system of stellar streams.
+
+### Contexte
+The context of this project is the study of our Galaxy, in the context of the ESA Gaia astrometric mission and the complementary spectroscopic surveys that will soon be operational (WEAVE, MOONS).
+
+### Méthodologie
+The aim will be to develop a set of numerical simulations of the formation of stellar streams in different galactic potentials and to use/develop the most appropriate statistical methods for their analysis. The numerical code for stellar stream simulations is already available in our group. This PhD project will allow the student to acquire a wide range of scientific knowledge and technical skills: from galactic dynamics, stellar populations and cosmology at Galactic scales to statistical methods for astrophysics; from the complete chain of the design, initialization and execution of large numerical simulations on national supercomputers to the most efficient ways of processing and analysing these data sets. Finally, we plan to make the simulations developed during this PhD project available to the community on a dedicated website. All this should ensure that the student is trained in a number of scientific and technical skills, which will be an asset for his future.
+
+
+## Une année après d'avoir déposé la candidature
+
+### What have I done? 
+
+{{< youtube id="oIBfR6xnl4I" >}}
+
+
+### Deliverables
+
+#### Presentations
+
+#### Publications
 
 STATISTIQUE des nombres de présentation. rendre le facile! 
 
@@ -23,6 +70,11 @@ Simulating tidal debris production from all Galactic Globular Clusters | EAS Val
 '' | l'observatoire de Strasbourg | Rodrigo Ibata | 22 November 2022 
 '' | Institute d'Astrophysique de Paris | Elbereth | 29 March 2023
 Detection of 4.3 Gyr Asteroid Family | l'observatoire de la côte d'azur | Benoît Carry | 25 May 2023
+
+
+{{< youtube id="oIBfR6xnl4I" >}}
+
+
 
 ## Future Presentations
 
