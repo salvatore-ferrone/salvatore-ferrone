@@ -50,6 +50,6 @@ theme="hugo-blog-awesome"
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Personal site demo"
+  intro = "WARNING: beta version "
   name = "Salvatore Ferrone"
-  description = "PhD Researcher at à l'observatoire de Paris and at the University of Rome, la Sapienza"
+  description = "Salvatore Ferrone. PhD Researcher at à l'observatoire de Paris and at the University of Rome, la Sapienza"

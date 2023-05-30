@@ -8,15 +8,9 @@ math: true
 ---
 
 
-<!-- <style>
-body {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg');
-    background-repeat: no-repeat;
-    background-size: 100 100%;
-}
-</style> -->
 
-
+# NOTE TO READER: THIS BLOG IS STILL IN THE BETA PHASE. 
+I used it to present my work given in a talk à l'observatore de la côte d'azur. I am still working on it, to make it a full-fledge scientific blog to accompany the publication. But please go ahead if you will!
 
 
 

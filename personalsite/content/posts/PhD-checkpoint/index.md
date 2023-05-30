@@ -1,11 +1,12 @@
 ---
 title: PhD Checkpoint Num. 1
 author: Salvatore Ferrone
-date: 2023-05-25
+date: 2023-05-30
 description: My comité de suivi de thèse.
 toc: true
+math: true
 ---
-la lingue officielle is franglais. 
+the lingue officielle is franglais. 
 
 ## PhD Checkpoint #1
 
@@ -71,28 +72,56 @@ One globular cluster is pleasent, The same one in the Galaxy is cool, what about
 
 ### Deliverables
 
-#### Presentations  
+#### Presentations and Publications
 
-For a complete list of presentations, see the [presentations]({{< relref "/pages/Publications.md" >}}) section below. I have published two first authors papers since the begining of the PhD. I am a co-author on a paper of Dr. Laia Casamiquela. I am a co-author on another paper that is soon to be published by Dr. Jules Bourdelles de Micas. Additionally, I making a contribution to a paper with Dr. Rodrigo Ibata of Strasbourg. 
+For a complete list, see this [page]({{< relref "/pages/Publications.md" >}}). 
 
-**EVERYTHING BELOW HERE IS STILL SCRAP.**
-
-A table summarizing 5 persentations is here:
-
+Here is a table summarizing my presentation's since being accepted into the PhD:
    Title | Location   | Host | date
 --------|------ |----- | -----
 Simulating tidal debris production from all Galactic Globular Clusters | EAS Valencia, Spain | EAS | June 2022 
 '' | l'observatoire de la côte d'azur | Vanessa Hill | 14 September 2022
 '' | l'observatoire de Strasbourg | Rodrigo Ibata | 22 November 2022 
 '' | Institute d'Astrophysique de Paris | Elbereth | 29 March 2023
-Detection of 4.3 Gyr Asteroid Family | l'observatoire de la côte d'azur | Benoît Carry | 25 May 2023
+[Detection of 4.3 Gyr Asteroid Family]({{< relref "/posts/ancient-asteroid-family/index.md" >}}) | l'observatoire de la côte d'azur | Benoît Carry | 25 May 2023
 
 
-We are making all of our simulatiosn publically available [here](https://etidal-project.obspm.fr/).
+Regarding the publications, since begining the PhD I have published **two first authors papers and one co-author paper**. The co-author paper was an analysis of a recently discovered open cluster and was directed by the first author, Dr. Laia Casmiquela who is a part of the GEPI reserach team. I contributed our dynamical evolution models to explain how the tidal forces deformed the open cluster. The simulations are consistent with the observations. Some future papers are expected to be written, on which I will be a co-author. One of the work of Dr. Jules Boudelles De Micas, a former observatoire de paris PhD student and current post-doc, who is completing a spectroscopic analysis of the ancient asteroid family which was discovered and reported in my most recent paper. Next, senior researcher Dr. Rodrigo Ibata has invited Paola and I to contribute to his work on inferring the Galactic potential from orbits determined by recently discovered stellar streams. A precursor to this work can be seen in a previous article published by his team in 2011. They simulated inferring flattening parameters of Galactic dark matter halo's using stellar streams.
+
+Step (1) create a fiducial model using a self-consistent nbody computation
+![Varghese](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/417/1/10.1111/j.1365-2966.2011.19097.x/2/mnras0417-0198-f8.jpeg?Expires=1688037860&Signature=PxbelW8opZ7Z17jFuKTjmGwQ5nWSw2l0ao80blwkbjjwJY2Hc6kjMrBjx-q0wlMxibis9EMRzPmFhFBGd7RiHQGbWJpSaPVgR~TmJg1sLvTWMRmXkwe65WtjO2Wpybvh6pwLH8NplIu2ZKNmQvutoJ~wUHBbmmV0EIlplbaDvYmptxwOECVVGDnZ6cKTW5oI0fSpRxoZuC6pGesmkMuUNa0gIEwXTibOVYrD3a3MwAvUiY92w0Mv9sUCQP1RmMmYQ43yqBUGMZm3cjtupUNyq32-W~Bi3uh3URLPe-aaYvcyTNCWAUIlUIoyFJ8qW8JXv04rtU86WU3jGJh0WevCLA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
+Credit: [Varghese et al 2011](https://doi.org/10.1111/j.1365-2966.2011.19097.x) *Stellar streams as probes of dark halo mass and morphology: a Bayesian reconstruction*
+
+Step (2) now reproduce the stream by following the progenitor orbit in the fiducial model, but using particle spray:
+![VarhgeseFig9](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/417/1/10.1111/j.1365-2966.2011.19097.x/2/mnras0417-0198-f9.jpeg?Expires=1688037912&Signature=N1IEFwOUruwCozwu5UhtqMAWxga091NF4sbFsFXsPLHuuBCiRAtAP-s1Pk0C0rIPN73v4t7aeOPNCbOKCB1qYuIbPWMFhdKyurh3RKH9p2vFNH8ZAmbyFdOxJ5GTnpicbYH27DSPE7z0t-8qPw0JvfFVNA~RZgCBssbfIxchWrMRAkjHDgH8GFZ8B7FnuLtsf~R8juY8JFpATTpo2-bKu0ZuPbMT2x4X~cQlalaSQJTtoWFYbmdsLofuoWx5U2Sz7-BIRTK4-2pnm5uLfqr7D55bO6tL~GSChXi9lP2CWPpOmjK5ssdYD6C~kKTijfx9GzPQ0ZmkZ1t~K7sol3uYNA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+Credit: [Varghese et al 2011](https://doi.org/10.1111/j.1365-2966.2011.19097.x) *Stellar streams as probes of dark halo mass and morphology: a Bayesian reconstruction*
 
 
 
-## What is next?
+
+### Our team's public data repository
+*We are building a website from which anyone can download our simulations results*. The site is currently online at this domain: [https://etidal-project.obspm.fr/](https://etidal-project.obspm.fr/). However, it is not yet operational. We have a [https://etidal-dev.obspm.fr/](https://etidal-dev.obspm.fr/) that shows the intended functionality. It is only available if connected to the observatory's servers and if you have the correct credentials.
+
+### MINI-PROJECTS
+I want to make blogs of my work! There are three principal motivators: 
+1. reading articles is difficult for me due to jargon and a lack of context. Annual or decade reviews help. But as a reader I would often times love someone to explain the literature in more details besides one sentence and a quick reference. So, I want to provide that with my work such that it's easier for a novice or a non-expert. 
+2. I want these blogs to serve as the basis for my thesis. If I can start writing content now, and people can look at it, critize it, and I can improve it, then I will be in a better position to write my thesis.
+3. Sometimes I learn things, and then I forget them. How easy would it be to relearn something if I had my own blog teaching my how to do something?
+
+Here are some preliminary blogs that I have written that are currently in Jupyter notebooks:
+- [Unit analysis](https://gitlab.obspm.fr/sferrone/integrate-plummer/-/blob/main/notebooks/units.ipynb). I had a hard time understanding galactic units. I couldn't understand why the masses in our paper were set to $2.32\times10^{7}$ solar masses. I didn't like this. I wanted to know why. So I wrote a blog about it.
+- [Generating Plummer Initial Conditions](https://gitlab.obspm.fr/sferrone/integrate-plummer/-/blob/main/notebooks/generateInitCond.ipynb). I would like to run simulations of globular clusters that have a non-zero spin. While doing so, I realized that I didn't know how to generate the initial velocities of the particles on a deep level. I used this blog to work with the masters student and show him how its done as well. 
+
+- [Failed block time-steps](https://gitlab.obspm.fr/sferrone/gc-tidal-loss/-/blob/development/simulations/analytic-GC-tidal-loss/notebooks/failedblock.ipynb). Here's an idea I had for reducing the number of computations necessary to simulate a globular cluster. I wanted to use a block time-step method. i.e. how can I integrate the inner particles with sufficient temporale resolution without wasting computation time on the outer particles? Briefly, block time-stepping is to give a class of particles the same time-step based on their dynamical times. The blocks $\delta t$'s need to be both multilpes of one another and factors of the total number of steps. In general, this leads to about a factor of four less computations. However, it was slower in the case of 100 particles with a speed up of 0.7. It was faster when using about 500 particles by a factor of 1.3. The program crashes when using a thousand particles. This showed me I have much to learn about high performance computing. I have left this on the side for a moment to not waste time over-optomizing the code if not necessary.
+
+- **Using Galpy**. Upon publishing the paper on arkix, I got a message from someone suggesting me to use Galpy, a python library for galactic dynamics. I had never heard of it before. I was curious. Learning new code always requires a project and a deliverable. I wanted to see if I could reproduce the methods of varghese et al 2011. Namly, I wanted to use Galpy to do particle spray. This did not work. I still have issues. I limited it to some potential bugs, but I abandonded because it did not look fruitful. I summarized the functions that I needed in this [notebook](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/report/galpy-ref.ipynb). The failed attempts to reconstruct the orbits using particle spray and Galpy can be found [here](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/code/notebooks/reproduce-stream.ipynb). [Here is another one.](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/code/notebooks/spray-scrap3.ipynb)
+
+
+- [Stream-orbit systematic offset](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing). This project for now is also a bit of a null result. We wanted to see if there were any systematic predictors of the mis-match between the stream and the orbit.  
+
+
+## La Boule de Crystal: What does the future have in store?
 
 ### Future Presentations
 
@@ -104,37 +133,25 @@ FILL IN TABLE OF SESTO, SPAIN, AND CRACOVIE
 ### Projects leading towards first author publication
 Here are some porjects aiming towards publication 
 
-(1) MORE PERTURBATIONS
-Give overview of code:
-https://gitlab.obspm.fr/sferrone/gc-tidal-loss
+1. MORE PERTURBATIONS
+* overview of [code](https://gitlab.obspm.fr/sferrone/gc-tidal-loss)
+- Currently re-writing the code to be more adaptable to different potentials and perturbations.
 
-(2) SIMULATING IMAGING OF THE STREAMS
-XXX ADD IMAGE
-
+2. SIMULATING IMAGING OF THE STREAMS
 
 
 
-## MINI-PROJECTS
-I want to make blogs of my work! the idea is to make some of the basic stuff accesible and create the base of my thesis. 
-- [Unit analysis](https://gitlab.obspm.fr/sferrone/integrate-plummer/-/blob/main/notebooks/units.ipynb)
-- [Generating Plummer Initial Conditions](https://gitlab.obspm.fr/sferrone/integrate-plummer/-/blob/main/notebooks/generateInitCond.ipynb)
 
-- [Failed block time-steps](https://gitlab.obspm.fr/sferrone/gc-tidal-loss/-/blob/development/simulations/analytic-GC-tidal-loss/notebooks/failedblock.ipynb)
-- [Galpy Particle Spray](add link in a moment)
+
 
 ## INTENDED FUTURE PROJECTED
 
 - Adding context to infering progenitor orbits from streams
-   - we were looking for a type of correction, or searching for a systematic predictor that could inform us how to fix a stream to obtain the orbit. 
       - to do that, I looked to [Varghese et al 2010](https://doi.org/10.1111/j.1365-2966.2011.19097.x) as a guide and tried to reproduce their results.
 
 Varghese's method for quick computational inference
 
-Step (1) create a fiducial model using a self-consistent nbody computation
-![Varghese](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/417/1/10.1111/j.1365-2966.2011.19097.x/2/mnras0417-0198-f8.jpeg?Expires=1688037860&Signature=PxbelW8opZ7Z17jFuKTjmGwQ5nWSw2l0ao80blwkbjjwJY2Hc6kjMrBjx-q0wlMxibis9EMRzPmFhFBGd7RiHQGbWJpSaPVgR~TmJg1sLvTWMRmXkwe65WtjO2Wpybvh6pwLH8NplIu2ZKNmQvutoJ~wUHBbmmV0EIlplbaDvYmptxwOECVVGDnZ6cKTW5oI0fSpRxoZuC6pGesmkMuUNa0gIEwXTibOVYrD3a3MwAvUiY92w0Mv9sUCQP1RmMmYQ43yqBUGMZm3cjtupUNyq32-W~Bi3uh3URLPe-aaYvcyTNCWAUIlUIoyFJ8qW8JXv04rtU86WU3jGJh0WevCLA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 
-Step (2) now reproduce the stream by following the progenitor orbit in the fiducial model, but using particle spray:
-![VarhgeseFig9](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/417/1/10.1111/j.1365-2966.2011.19097.x/2/mnras0417-0198-f9.jpeg?Expires=1688037912&Signature=N1IEFwOUruwCozwu5UhtqMAWxga091NF4sbFsFXsPLHuuBCiRAtAP-s1Pk0C0rIPN73v4t7aeOPNCbOKCB1qYuIbPWMFhdKyurh3RKH9p2vFNH8ZAmbyFdOxJ5GTnpicbYH27DSPE7z0t-8qPw0JvfFVNA~RZgCBssbfIxchWrMRAkjHDgH8GFZ8B7FnuLtsf~R8juY8JFpATTpo2-bKu0ZuPbMT2x4X~cQlalaSQJTtoWFYbmdsLofuoWx5U2Sz7-BIRTK4-2pnm5uLfqr7D55bO6tL~GSChXi9lP2CWPpOmjK5ssdYD6C~kKTijfx9GzPQ0ZmkZ1t~K7sol3uYNA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 
 
 ## LOGISTICS
