@@ -69,6 +69,7 @@ One globular cluster is pleasent, The same one in the Galaxy is cool, what about
 
 {{< youtube id="dvy6UapPvec" >}}
 
+Put an orbit next to it for comparison. the tails follows the orbit 
 
 ### Deliverables
 
@@ -150,7 +151,7 @@ Credit: Ferrone et al 2023. Additionally, we used the [Artpop](https://artpop.re
 
 
 
-## INTENDED FUTURE PROJECTES
+### INTENDED FUTURE PROJECTES
 
 - Bayesian inference
 - Machine learning
@@ -199,3 +200,32 @@ In regards to a summer school, I have been looking at NASA's [Science Mission De
 
 
 
+
+## Notes from the meeting 
+- good rotation curves from eilers et al 2019
+- ram pressure stripping of spheroidals by the milky way causes their gas to come out and then the gas from behind the spheres causes a drag force. 
+- add the LMC because its mass is about 10 percent thus it is important. 
+- also add saggitarius because it is massive as well. 
+- dynamical friction is difficult  
+- we have a lot of free parameters. 
+- change in milky way mass over time. The milky way gains in mass. 
+- there is a standard model of halo growth of galaxies, so we can look to that as a guide to increase the mass of the milkway over time. 
+- relationship of radius to the power of time 
+$$ r \approx t^{0.8}$$ 
+or 0.7. look to. Falco and  mamon et al 2013 
+look to the appendeix. Multiple methods for establishing the growth rate. canonical paper Van Den Bosch 2002.
+- does the milky way profile have a cusp or a core. which is important since many have peri-centers within a few kpc. 
+- how to infer subhalos from the affects on streams. 
+- some clusters have cusps and some have cores. 
+- the gravitational collapse
+- about 30\% are cuspy. and then we have some stellar functions from baumgardt but it is difficult due to field contamination. 
+- euclid will be launched very soon, and its for dark energy. it is going to 40 percent of the sky, and its going  to have goo statistics, we will probably have some proper motions of some globular clusters. maybe like 10-20 percent of the GCs. we could simulate looking at them with euclid. Perhaps euclid could be used for getting some proper motions. 
+- if you have a collision you can do a quadrapole expansion from the tides. 
+- parler a jacques laskar IMCEE. planet evolutions. 
+- do we know corotation of the disk?
+- 2008 aquarious simulation shows that the subhalos are never large when at the center of the galaxy within the solar radii. you can get the subhalo mass function as a function of position. they have 10^9 particles.
+- Try different hypothesis on the dark matter subhaloes. 
+- try different cosmological simulations of what we expect for different configurations of the subhaloes. 
+- do dark matter particles interact?
+- we can either be agnositc which is try a number of things
+- to to use the dark matter physics from the large cosmological hydro dynamical simulations such as TNG. The baryonic physics with the AGN is very uncertain. its all very uncertain such as the numerical configuration. 

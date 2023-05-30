@@ -52,4 +52,4 @@ theme="hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "WARNING: beta version "
   name = "Salvatore Ferrone"
-  description = "Salvatore Ferrone. PhD Researcher at à l'observatoire de Paris and at the University of Rome, la Sapienza"
+  description = "Salvatore Ferrone. PhD Researcher at à l'Observatoire de Paris and at the University of Rome, la Sapienza"
