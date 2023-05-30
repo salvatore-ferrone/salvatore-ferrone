@@ -10,7 +10,7 @@ the lingue officielle is franglais.
 
 ## PhD Checkpoint #1
 
-To Dr. Gary Mamon and Dr. Françoise Combes, thank you for taking your time out to check in my progress. I hope that you will find my work satisfactory and can critique it freely in the aims of forming a better scientist. To Dr. Paola Di Matteo, thank you for directing me and providing me with an opportunity to make a valid contribution in astronomy. To Dr. Marco Montouri, I look forward to working together more closely when I arrive in Rome. I would also like to thank other professors and professionals who have helped such as Nicolas Leclerc, Rodrigo Ibata, Clément Hottier, Owain Snaith,  Sergey Khoperskov, Misha Haywood, Alessandra Mastrobuono-Battisti, and David Valls-Gabaud. Additionally, I would like to thank the other junior researchers within and outside of our group such as Gulia Pagnini, Valeria Cerqui, Andre Saccardi, Jesse Palmerio, Laia Casamiquela, and Sofia Bisero, Eliot Stien, and Antoine Fort. Lastly, Herminia de Oliveira Amorim. 
+To Dr. Gary Mamon and Dr. Françoise Combes, thank you for taking your time out to check in my progress. I hope that you will find my work satisfactory and can critique it freely in the aims of forming a better scientist. To Dr. Paola Di Matteo, thank you for directing me and providing me with an opportunity to make a valid contribution in astronomy. To Dr. Marco Montouri, I look forward to working together more closely when I arrive in Rome. I would also like to thank other professors and professionals who have helped such as Nicolas Leclerc, Rodrigo Ibata, Clément Hottier, Owain Snaith,  Sergey Khoperskov, Misha Haywood, Alessandra Mastrobuono-Battisti, and David Valls-Gabaud. Additionally, I would like to thank the other junior researchers within and outside of our group such as Gulia Pagnini, Valeria Cerqui, Andre Saccardi, Jesse Palmerio, Laia Casamiquela, and Sofia Bisero, Eliot Stien, Antoine Fort, Houda Haidar, and David Paipa. Lastly, Herminia de Oliveira Amorim. 
 
 ## Les courants stellaires pour l'archéologie galactique et cosmique : quand la gravité rencontre la complexité
 (Stellar streams for Galactic and cosmic archaeology: when gravity meets complexity)
@@ -69,8 +69,6 @@ One globular cluster is pleasant, The same one in the Galaxy is cool, what about
 
 {{< youtube id="dvy6UapPvec" >}}
 
-Put an orbit next to it for comparison. the tails follows the orbit 
-
 ### Deliverables
 
 #### Presentations and Publications
@@ -107,8 +105,9 @@ Credit: [Varghese et al 2011](https://doi.org/10.1111/j.1365-2966.2011.19097.x) 
 ### MINI-PROJECTS
 I want to make blogs of my work! There are three principal motivators: 
 1. reading articles is difficult for me due to jargon and a lack of context. Annual or decade reviews help. But as a reader I would often times love someone to explain the literature in more details besides one sentence and a quick reference. So, I want to provide that with my work such that it's easier for a novice or a non-expert. 
-2. I want these blogs to serve as the basis for my thesis. If I can start writing content now, and people can look at it, criticize it, and I can improve it, then I will be in a better position to write my thesis.
-3. Sometimes I learn things, and then I forget them. How easy would it be to relearn something if I had my own blog teaching my how to do something?
+2. I want these blogs to serve as the basis for my thesis. If I can start writing content now, and people can look at it, criticize it, and I can improve it, then I will be in a better position to write the manuscript.
+3. Sometimes I learn things, and then I forget them. How easy would it be to relearn something if I had my own blog teaching me how to do it?
+
 
 Here are some preliminary blogs that I have written that are currently in Jupyter notebooks:
 - [Unit analysis](https://gitlab.obspm.fr/sferrone/integrate-plummer/-/blob/main/notebooks/units.ipynb). I had a hard time understanding galactic units. I couldn't understand why the masses in our paper were set to $2.32\times10^{7}$ solar masses. I didn't like this. I wanted to know why. So I wrote a blog about it.
@@ -130,7 +129,7 @@ Here are some preliminary blogs that I have written that are currently in Jupyte
 --------|------ |----- | -----
 Presentation | Sesto, Italia | Paola Di Matteo, Florant Renaud | June 2023
 Poster | Granada, Spain | [Galactic bars: driving and decoding galaxy evolution](http://www.galacticbars2023.com/) | July 2023
-Presentation | Cracovie, Polygon | [EAS](https://eas.unige.ch/EAS2023/program.jsp) | July 2023
+Presentation | Cracovie, Pologne | [EAS](https://eas.unige.ch/EAS2023/program.jsp) | July 2023
 
 
 ### Projects leading towards first author publication
@@ -154,8 +153,7 @@ Credit: Ferrone et al 2023. Additionally, we used the [Artpop](https://artpop.re
 ### INTENDED FUTURE PROJECTS
 
 - Bayesian inference
-- Machine learning
-- dimensional reduction
+- Machine learning and dimensional reduction methods to find the best potential and quantify detectable signs of particular perturbers within the stellar streams. 
 
 
 ## LOGISTICS
@@ -202,6 +200,7 @@ In regards to a summer school, I have been looking at NASA's [Science Mission De
 
 
 ## Notes from the meeting 
+- regarding the animation of Palomar 5 from the center of the galaxy, it would be help to have another animation on the side viewing the evolution of the orbit.
 - good rotation curves from eilers et al 2019
 - ram pressure stripping of spheroidals by the milky way causes their gas to come out and then the gas from behind the spheres causes a drag force. 
 - add the LMC because its mass is about 10 percent thus it is important. 
