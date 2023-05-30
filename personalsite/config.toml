@@ -1,6 +1,6 @@
 baseURL = 'http://salvatore-ferrone.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Beta site'
 theme="hugo-blog-awesome"
 
 # set markup.highlight.noClasses=false to enable code highlight
