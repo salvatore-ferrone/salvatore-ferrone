@@ -118,70 +118,83 @@ Here are some preliminary blogs that I have written that are currently in Jupyte
 - **Using Galpy**. Upon publishing the paper on arkix, I got a message from someone suggesting me to use Galpy, a python library for galactic dynamics. I had never heard of it before. I was curious. Learning new code always requires a project and a deliverable. I wanted to see if I could reproduce the methods of varghese et al 2011. Namly, I wanted to use Galpy to do particle spray. This did not work. I still have issues. I limited it to some potential bugs, but I abandonded because it did not look fruitful. I summarized the functions that I needed in this [notebook](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/report/galpy-ref.ipynb). The failed attempts to reconstruct the orbits using particle spray and Galpy can be found [here](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/code/notebooks/reproduce-stream.ipynb). [Here is another one.](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/code/notebooks/spray-scrap3.ipynb)
 
 
-- [Stream-orbit systematic offset](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing). This project for now is also a bit of a null result. We wanted to see if there were any systematic predictors of the mis-match between the stream and the orbit.  
+- [Stream-orbit systematic offset](https://gitlab.obspm.fr/sferrone/stream-orbit-tracing). This project for now is also a bit of a null result. We wanted to see if there were any systematic predictors of the mis-match between the stream and the orbit. It's not so easy! 
 
 
 ## La Boule de Crystal: What does the future have in store?
 
 ### Future Presentations
 
-   Title | Location   | Host | date
+   Type | Location   | Host | date
 --------|------ |----- | -----
+Presentation | Sesto, Italia | Paola Di Matteo, Florant Renaud | June 2023
+Poster | Granada, Spain | [Galactic bars: driving and decoding galaxy evolution](http://www.galacticbars2023.com/) | July 2023
+Presentation | Cracovie, Plogne | [EAS](https://eas.unige.ch/EAS2023/program.jsp) | July 2023
 
-FILL IN TABLE OF SESTO, SPAIN, AND CRACOVIE
 
 ### Projects leading towards first author publication
 Here are some porjects aiming towards publication 
 
 1. MORE PERTURBATIONS
-* overview of [code](https://gitlab.obspm.fr/sferrone/gc-tidal-loss)
-- Currently re-writing the code to be more adaptable to different potentials and perturbations.
+- To redo and expand upon perturbations. Preliminary results of GC-GC interactions can be seen in my [M2 report de stage](https://www.dropbox.com/home/postGrad/graduateSchools2/paris/spring_2021/courses/research/reports/stage_fall_2021?preview=LIU2_report_ferrone.pdf)
+- I am currently rewriting the [code](https://gitlab.obspm.fr/sferrone/gc-tidal-loss) to be more adaptable to different potentials and perturbations.
 
 2. SIMULATING IMAGING OF THE STREAMS
+- In parallel, I wish to build the machinery to make the simulations useful for obesrvers. Here is the current [repository](https://gitlab.obspm.fr/sferrone/artpop-streams) for the project. 
+- Additionally, this should be able to make predictions. 
+   - how much are the streams are we blind to due to limitations in current surveys?
+   - how much more can we expect to see with future surveys?
+Here is a preliminary image.
+![NGC2808](/Bound_NGC2808_LSST.png)
+Credit: Ferrone et al 2023. Additionally, we used the [Artpop](https://artpop.readthedocs.io/en/latest/index.html) package to get colors and magnitude of the stars, and simulate viewing it with the LSST telescope.
 
 
 
+## INTENDED FUTURE PROJECTES
 
-
-
-## INTENDED FUTURE PROJECTED
-
-- Adding context to infering progenitor orbits from streams
-      - to do that, I looked to [Varghese et al 2010](https://doi.org/10.1111/j.1365-2966.2011.19097.x) as a guide and tried to reproduce their results.
-
-Varghese's method for quick computational inference
-
-
+- Bayesian inference
+- Machine learning
+- dimensionality reduction
 
 
 ## LOGISTICS
-
-### COMPLETED COURSES (xx hr /total)
-
-quelle est la volume horaire pour moi ! et aussi pour les autres étudiants parce que je suis 
-
-   Title            | Professor | hours   | start date | end date
---------            |------     |----- |----- | -----
-Bayesian Statistics | Benjamin wandelt      |  30  | 13 Mar 2023 | 11 May 2023
-FLE B2 pour doctorants | Pauline Selinger   |  32  | 27 Oct 2022 | 16 Dec 2022
-ethics | | | 
-seasonal school? | | | 
-
-combian des heures il me manque? combien des heures il me reste? est-ce qu'il y a des cous obligatoire pendents l'hiver ou l'été? est-ce que je peux le faire en italie? 
 
 ### CONTRIBUTIONS TO THE COMMUNITY 
 AJOUTER DES PARTICIPATION à L'ESTABLISHMENT 
 vie d'etablisement 
 - Table Round en juin  
-   - method pedagogique 
+   - method pedagogique à venire/
 - Table round PSL en septembre 
-   - PSL
-- journal club 400000 persone par zoom viennent 
-- journée de la science 
+   - Conversation with external comité of professors in order to evalute the progression of PSL becoming a grande école.
+- I organize our teams journal club meetings
+- At la journée de la science, I participated in a workshop that taught children about galaxy formation with Legos. 
 
-### FUTURE SUMMER SCHOOLS
-- Maybe NASA's [Science Mission Design School](https://www.jpl.nasa.gov/edu/intern/apply/nasa-science-mission-design-schools/) for next year?
-   - I wrote in my letters that I am supposed to bridge the gap between europe and the US, perhaps its time to start aiming towards that? I also like the idea of a career in mission design, I think I can handle the stress. 
+### COMPLETED COURSES (70 hr)
+
+In regards to my courses, a normal student must complete 135 hours (à verifier). With my contract, I only need to complete half of this to satisfy the requirements. I have completed 70 hours of courses. I have completed the following courses:
+
+   Title            | Professor | hours   | start date | end date
+--------            |------     |----- |----- | -----
+Bayesian Statistics | Benjamin wandelt      |  30  | 13 Mar 2023 | 11 May 2023
+FLE B2 pour doctorants | Pauline Selinger   |  32  | 27 Oct 2022 | 16 Dec 2022
+Scientific Integrity: Principles and Practice (SI) | Dr. Jean Aboudarham | 8 | 31 Mar 2023 | 
+
+The scientific integreity course was an addition requirement. Apart from this, I must also compelte a summer/winder school. Regarding my future course desires, I would like to do:
+
+- High Performance Computing
+- Machine learning / dimensionality reduction
+- Writing/Acting in French/Italian
+- Stellar formation and evolution
+- Advanced Hamiltonian dynamics
+- Chaos theory
+- General relativity II 
+
+In regards to a summer school, I have been looking at NASA's [Science Mission Design School](https://www.jpl.nasa.gov/edu/intern/apply/nasa-science-mission-design-schools/). Perhaps I could apply for next year? I wrote in my letters that I am supposed to bridge the gap between europe and the US, perhaps its time to start aiming towards that? I also like the idea of a career in mission design, my toolbox is not their yet but I think I can handle the stress of being a PI. 
+
+
+
+
+
 
 
 
