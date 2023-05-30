@@ -9,7 +9,7 @@ la lingue officielle is franglais.
 
 ## PhD Checkpoint #1
 
-To Dr. Gary Mamon and Dr. Françoise Combes, thank you for taking your time out to check in my progress. I hope that you will find my work satisfactory and can cretique it freely in the aims of forming a better scientist. To Dr. Paola Di Matteo, thank you for directing me and providing me with an opprotunity to make a valid contribution in astronomy. To Dr. Marco Montouri, I look forward to working together more closely when I arrive in Rome. I would also like to thank other professors who have helped 
+To Dr. Gary Mamon and Dr. Françoise Combes, thank you for taking your time out to check in my progress. I hope that you will find my work satisfactory and can cretique it freely in the aims of forming a better scientist. To Dr. Paola Di Matteo, thank you for directing me and providing me with an opprotunity to make a valid contribution in astronomy. To Dr. Marco Montouri, I look forward to working together more closely when I arrive in Rome. I would also like to thank other professors and professionals who have helped such as Nicolas Lecleric, Rodrigo Ibata, and Vanessa Hill, Clément Hottier, Owain Snaith, Sergy Kohpersnov, Misha Haywood, and David Vallas Gaubaund. Additionally, I would like to thank the other junior researchers within and outside of our group such as Gulia Pagnini, Valeria Cerqui, Andre Saccardi, Jessie Palmerio, Laia Casa, and Sofia Bisero, Eliot Stien, and Antoine Fort. Lastly, Herminia de Oliveira Amorim. 
 
 ## Les courants stellaires pour l'archéologie galactique et cosmique : quand la gravité rencontre la complexité
 (Stellar streams for Galactic and cosmic archaeology: when gravity meets complexity)
@@ -51,17 +51,33 @@ The aim will be to develop a set of numerical simulations of the formation of st
 ## Une année après d'avoir déposé la candidature
 
 ### What have I done? 
+Zero-ith-ly, I have created this website in recent days in an attempt to share my science faster, more easily, such that I can always demonstrate my work to someone as long as there is internet!
 
+First, two birds one stone, to add more context to the thesis as well as demonstrate a deliverable, I have create many animations and mastered a process to make them easily. Previously, I was using `Matplotlib`'s animation package. This is penible. Now I use `ffmpeg` which is much faster and easier and allows for much more control.
+
+#### A Globular Cluster in a snow globe 
 {{< youtube id="oIBfR6xnl4I" >}}
+
+#### A Globular Cluster That Orbits a Galaxy
+This is a simulation of Palomar 5, in the aims to be a demonstration of the growth of tidal tails. 1000 particles were used. These particles experience the potential from the Milky Way and a time-static Plummer Potential, as explained in the paper.
+
+{{< youtube id="Bxt-yz8ABIc" >}}
+
+#### Most of the Globular Clusters in the Milky Way
+One globular cluster is pleasent, The same one in the Galaxy is cool, what about using about 100 globular clusters? This animation shows just that. It uses 1000 particles per GC, compared to 100,000 particles as in our paper. The POV is from the sun's position today. The center of the screen points towards the galactic center, the sides are behind us. Thus, this is galaxtic coordiantes. There is an element of depth in this presentation since I scaled the size particles by their distance from the sun. 
+
+{{< youtube id="dvy6UapPvec" >}}
 
 
 ### Deliverables
 
-#### Presentations
+#### Presentations  
 
-#### Publications
+For a complete list of presentations, see the [presentations]({{< relref "/pages/Publications.md" >}}) section below. I have published two first authors papers since the begining of the PhD. I am a co-author on a paper of Dr. Laia Casamiquela. I am a co-author on another paper that is soon to be published by Dr. Jules Bourdelles de Micas. Additionally, I making a contribution to a paper with Dr. Rodrigo Ibata of Strasbourg. 
 
-STATISTIQUE des nombres de présentation. rendre le facile! 
+**EVERYTHING BELOW HERE IS STILL SCRAP.**
+
+A table summarizing 5 persentations is here:
 
    Title | Location   | Host | date
 --------|------ |----- | -----
@@ -72,49 +88,41 @@ Simulating tidal debris production from all Galactic Globular Clusters | EAS Val
 Detection of 4.3 Gyr Asteroid Family | l'observatoire de la côte d'azur | Benoît Carry | 25 May 2023
 
 
-{{< youtube id="oIBfR6xnl4I" >}}
+We are making all of our simulatiosn publically available [here](https://etidal-project.obspm.fr/).
 
 
 
-## Future Presentations
+## What is next?
+
+### Future Presentations
 
    Title | Location   | Host | date
 --------|------ |----- | -----
 
+FILL IN TABLE OF SESTO, SPAIN, AND CRACOVIE
 
+### Projects leading towards first author publication
+Here are some porjects aiming towards publication 
 
-## Courses (xx hr /total)
+(1) MORE PERTURBATIONS
+Give overview of code:
+https://gitlab.obspm.fr/sferrone/gc-tidal-loss
 
-quelle est la volume horaire pour moi ! et aussi pour les autres étudiants parce que je suis 
-
-   Title            | Professor | hours   | start date | end date
---------            |------     |----- |----- | -----
-Bayesian Statistics | Benjamin wandelt      |  30  | 13 Mar 2023 | 11 May 2023
-FLE B2 pour doctorants | Pauline Selinger   |  32  | 27 Oct 2022 | 16 Dec 2022
-ethics | | | 
-seasonal school? | | | 
-
-combian des heures il me manque? combien des heures il me reste? est-ce qu'il y a des cous obligatoire pendents l'hiver ou l'été? est-ce que je peux le faire en italie? 
-
-## Context scientiques 
-- Tirer du document qu'on a utilisé
-- cette année on a fini
-- le site de [etidal](https://etidal-dev.obspm.fr/index.html) est en ligne presque 
-- on a fini la publication d'avant
-- qu'est que on est en train de faire maintennt?
-   - rendre le code plus modulaire
-      - apres plus des experience (bar, GC-GC, subhaloes, else?)
-   - des images 'faux' 
-   - site web
+(2) SIMULATING IMAGING OF THE STREAMS
+XXX ADD IMAGE
 
 
 
 
-## mini projects
+## MINI-PROJECTS
+I want to make blogs of my work! the idea is to make some of the basic stuff accesible and create the base of my thesis. 
 - [Unit analysis](https://gitlab.obspm.fr/sferrone/integrate-plummer/-/blob/main/notebooks/units.ipynb)
 - [Generating Plummer Initial Conditions](https://gitlab.obspm.fr/sferrone/integrate-plummer/-/blob/main/notebooks/generateInitCond.ipynb)
 
 - [Failed block time-steps](https://gitlab.obspm.fr/sferrone/gc-tidal-loss/-/blob/development/simulations/analytic-GC-tidal-loss/notebooks/failedblock.ipynb)
+- [Galpy Particle Spray](add link in a moment)
+
+## INTENDED FUTURE PROJECTED
 
 - Adding context to infering progenitor orbits from streams
    - we were looking for a type of correction, or searching for a systematic predictor that could inform us how to fix a stream to obtain the orbit. 
@@ -128,9 +136,23 @@ Step (1) create a fiducial model using a self-consistent nbody computation
 Step (2) now reproduce the stream by following the progenitor orbit in the fiducial model, but using particle spray:
 ![VarhgeseFig9](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/417/1/10.1111/j.1365-2966.2011.19097.x/2/mnras0417-0198-f9.jpeg?Expires=1688037912&Signature=N1IEFwOUruwCozwu5UhtqMAWxga091NF4sbFsFXsPLHuuBCiRAtAP-s1Pk0C0rIPN73v4t7aeOPNCbOKCB1qYuIbPWMFhdKyurh3RKH9p2vFNH8ZAmbyFdOxJ5GTnpicbYH27DSPE7z0t-8qPw0JvfFVNA~RZgCBssbfIxchWrMRAkjHDgH8GFZ8B7FnuLtsf~R8juY8JFpATTpo2-bKu0ZuPbMT2x4X~cQlalaSQJTtoWFYbmdsLofuoWx5U2Sz7-BIRTK4-2pnm5uLfqr7D55bO6tL~GSChXi9lP2CWPpOmjK5ssdYD6C~kKTijfx9GzPQ0ZmkZ1t~K7sol3uYNA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 
-NOTES
-- GC-GC
 
+## LOGISTICS
+
+### COMPLETED COURSES (xx hr /total)
+
+quelle est la volume horaire pour moi ! et aussi pour les autres étudiants parce que je suis 
+
+   Title            | Professor | hours   | start date | end date
+--------            |------     |----- |----- | -----
+Bayesian Statistics | Benjamin wandelt      |  30  | 13 Mar 2023 | 11 May 2023
+FLE B2 pour doctorants | Pauline Selinger   |  32  | 27 Oct 2022 | 16 Dec 2022
+ethics | | | 
+seasonal school? | | | 
+
+combian des heures il me manque? combien des heures il me reste? est-ce qu'il y a des cous obligatoire pendents l'hiver ou l'été? est-ce que je peux le faire en italie? 
+
+### CONTRIBUTIONS TO THE COMMUNITY 
 AJOUTER DES PARTICIPATION à L'ESTABLISHMENT 
 vie d'etablisement 
 - Table Round en juin  
@@ -140,6 +162,10 @@ vie d'etablisement
 - journal club 400000 persone par zoom viennent 
 - journée de la science 
 
+### FUTURE SUMMER SCHOOLS
+- Maybe NASA's [Science Mission Design School](https://www.jpl.nasa.gov/edu/intern/apply/nasa-science-mission-design-schools/) for next year?
+   - I wrote in my letters that I am supposed to bridge the gap between europe and the US, perhaps its time to start aiming towards that? I also like the idea of a career in mission design, I think I can handle the stress. 
 
 
-Dans l'avenir 
+
+
