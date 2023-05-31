@@ -144,7 +144,9 @@ Here are some projects aiming towards publication
 - Additionally, this should be able to make predictions. 
    - how much are the streams are we blind to due to limitations in current surveys?
    - how much more can we expect to see with future surveys?
+
 Here is a preliminary image.
+
 ![NGC2808](/Bound_NGC2808_LSST.png)
 Credit: Ferrone et al 2023. Additionally, we used the [Artpop](https://artpop.readthedocs.io/en/latest/index.html) package to get colors and magnitude of the stars, and simulate viewing it with the LSST telescope.
 
