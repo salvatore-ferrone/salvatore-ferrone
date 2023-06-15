@@ -4,7 +4,9 @@ date: '2023-05-25'
 author: Salvatore Ferrone
 ---
 
-# WEBSITE STILL IN THE BETA PHASE
+# WEBSITE STILL IN THE BETA PHASE OK
+
+![QR-salvatore.ferrone.github.io](/QR-salvatore.ferrone.github.io.png)
 
 My name is Salvatore Ferrone. I am a PhD student at the l'Observatoire de Paris, France. I am interested in the dynamics stars emerging from Globular Clusters within the Milky Way. Previous, I have worked on the dynamics of asteroids in the Solar System as visible and infrared data analysis to support NASA's OSIRIS-REx mission.
 
