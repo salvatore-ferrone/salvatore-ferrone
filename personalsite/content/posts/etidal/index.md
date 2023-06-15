@@ -1,7 +1,7 @@
 ---
 title: "The e-Tidal project"
 date: 2023-06-15T17:29:22+02:00
-draft: true
+draft: false
 ---
 
 
