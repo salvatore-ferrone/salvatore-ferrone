@@ -19,7 +19,7 @@ theme="hugo-blog-awesome"
     url = '/'
     weight = 10
   [[menu.main]]
-    pageRef="posts"
+    pageRef="Posts"
     name = 'Posts'
     url = '/posts/'
     weight = 20

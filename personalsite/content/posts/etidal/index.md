@@ -1,6 +1,6 @@
 ---
 title: "The e-Tidal Globular Cluster project"
-date: 2023-06-15T17:29:22+02:00
+date: 1996-06-15T17:29:22+02:00
 draft: false
 math: true
 ---
@@ -33,12 +33,15 @@ Credit: NASA/JPL-Caltech/R. Hurt (SSC/Caltech)
 ### Fun facts
 * There are about 160 globular clusters in the Milky Way
 * Each globular cluster has about $10^4$ and $10^6$ stars
-    * For context, the milkway has about $10^{11}$ stars
+    * For context, the Milky Way has about $10^{11}$ stars
 * From isochrones, we know that the stars in globular clusters are about 10 billion years old
     * making them some of the oldest objects in the Milky Way
 * Stars in globular clusters are not very massive about 0.8 $M_{\odot}$
     - the spectrum of masses typically span less than an order of magnitude
 
+* 0.8 $M_{\odot}$ 
+quando hai una populazione vecchia le stelle lasciono la sequenza principale, il turn e quando cambiano da idrogenon. piu che il turn off e bassa piu che la popolazione e vecchia. tutte quelle stelle massice sono altrove, forse nel branch dei giganti o sono diventati delle stelle che hanno smesso di briuciare idrogeno.
+so check with Misha about the turn off radius and average mass. 
 
 
 ### Animation demonstrating tidal foces
@@ -71,7 +74,7 @@ Here is a simulation of a globular cluster in a tidal field. The point of view i
 ### How to interpret the stellar streams?
 
 Are stellar streams good traces of GC orbits?
-Fig. 1 and 3 from Montuoiri et al 2008
+Fig. 1 and 3 from Montuori et al 2008
 
 What about internal structure of the streams?
 Clumpy streams in a smooth dark halo: the case of Palomar 5
@@ -103,6 +106,8 @@ Step (3) infer parameters of the potential
 
 
 
+
+
 <font size="12"> Perturbations </font>
 
 ![Bonaca](https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0004-637X/880/1/38/revision1/apjab2873f1_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1688042262&Signature=1WKmOlt5HZAR3gmOJ27w6VXvgvc%3D)
@@ -128,9 +133,9 @@ Later in the article, the authors run some simulations of a globular cluster orb
 
 
 
-
 ## The project's goals
-* To model the production of stellar streams from all milkway globular clusters
+* To model the production of stellar streams from all Milky Way globular clusters
+* Maybe we can discover more streams?
 
 ### Simulation showing many streams being made from many globular clusters
 {{< youtube id="dvy6UapPvec" >}}
@@ -138,17 +143,29 @@ Later in the article, the authors run some simulations of a globular cluster orb
 * This was published into an article in 2023.
     * The article is here: [Ferrone et al 2023. Astronomy and Astrophysics](https://www.aanda.org/articles/aa/full_html/2023/05/aa44141-22/aa44141-22.html)
 
-## Techincal details
-    - Plummer sphere
-    - $10^5$ particles per cluster
-### Galactic potential models
-    - Pouliasis I
-    - Pouliasis II
-    - Pouliasis II plus BAR
+## [Methods]({{< ref "/content/posts/Numerics/index.md" >}})
+
 
 ## Results
     Comparisons between different potentials
     Comparisons with different observations
+    
+## Propective 
+    - how well does the stream match the orbit? 
+    - which plots should we show?
+    - more pertubers?
+
+
+
+lo devo rendere molto accessibile senza degradare il messaggio e a EAS devo davvero sottolineare quello che avevo fatto e i nuovi risultati che ho ottenuto. 
+
+
 [ok](https://www.aanda.org/articles/aa/full_html/2023/05/aa44141-22/F1.html)
 ### The QR Code to the data repository
 ![etidal-QR-code](/etidal-QR-code.png)
+
+- advice make great propoganda for the use of the data
+- website under construction, but it will be available soon
+- add a jupyter notebook to show how to use the data
+- open the data, show whats in there, and how to make some plots
+
