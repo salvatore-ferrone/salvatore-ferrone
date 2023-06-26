@@ -114,6 +114,10 @@ Step (3) infer parameters of the potential
 [Figure 1](https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0004-637X/880/1/38/revision1/apjab2873f1_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1688042262&Signature=1WKmOlt5HZAR3gmOJ27w6VXvgvc%3D)
 from [Ana Bonaca et al 2019 ApJ 880 38](https://iopscience.iop.org/article/10.3847/1538-4357/ab2873/meta)
 
+![Figure 6. Bonaca et al](https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0004-637X/880/1/38/revision1/apjab2873f6_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1688419018&Signature=8fpnAQ2%2BC9ud4xz0oFua9dUysY8%3D)
+[Figure 6. Bonaca et al](https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0004-637X/880/1/38/revision1/apjab2873f6_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1688419018&Signature=8fpnAQ2%2BC9ud4xz0oFua9dUysY8%3D)
+
+
 <font size="12"> Accretion history of the Galaxy</font>
 
 
