@@ -1,5 +1,5 @@
 ---
-title: "The e-Tidal Globular Cluster project"
+title: "Thesis Introduction"
 date: 1996-06-15T17:29:22+02:00
 draft: false
 math: true

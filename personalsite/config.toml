@@ -29,14 +29,14 @@ theme="hugo-blog-awesome"
     url = '/about/'
     weight = 30
   [[menu.main]]
-    pageRef="ages"
+    pageRef="Pages"
     name = 'Pages'
     url = '/pages/'
     weight = 20    
 
 
 [params]
-  sitename = "Awesome hugo blog"
+  sitename = "Salvatore Ferrone"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -52,4 +52,4 @@ theme="hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "WARNING: beta version "
   name = "Salvatore Ferrone"
-  description = "Salvatore Ferrone. PhD Researcher at à l'Observatoire de Paris and at the University of Rome, la Sapienza"
+  description = "Salvatore Ferrone. PhD Researcher at à l'Observatoire de Paris. This website is currently. I am continually updating it and learning Hugo (web-development framework built on javascript) to display my research projects. To see my thesis work, see the pages under 'Posts' 1996. "
